@@ -1,12 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #222;
-    color: #fff;
-    margin: 0;
-    padding: 20;
-    text-align: center;
-    border-radius: 20px ;
-}
+    }
 
 header {
     font-family: 'Times New Roman', Times, serif bold;
@@ -34,6 +29,7 @@ header:hover {
     background-color: #646464;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .ul{
@@ -90,13 +86,10 @@ header:hover {
 
 .left-coin-container {
     display: inline-block;
-    align: center;
 }
 
 .right-coin-container {
     display: inline-block;
-    align: center;
-
 }
 
 .coin{
@@ -193,7 +186,7 @@ header:hover {
     font-weight: bold;
     width: 50px;
     text-align: center;
-}
+    }
 
 .container2 {
     max-width: 1800px;
@@ -202,11 +195,14 @@ header:hover {
     background-color: #646464;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     }
 
 .button-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    grid-auto-rows: 100px; /* Height of each row */
-    gap: 10px; /* Gap between grid items */
-}
+    grid-template-columns: repeat(5, 1fr); 
+    grid-auto-rows: 350px;
+    gap: 1px;
+    }
