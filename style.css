@@ -206,3 +206,48 @@ header:hover {
     grid-auto-rows: 350px;
     gap: 1px;
     }
+
+.container3 {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: url(https://cdn.britannica.com/74/182174-050-6755AB49/balloon-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    height: 50vh;
+    color: #fff;
+}
+
+.current-info{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date-container .time {
+    font-size: 70px;
+}
+
+
+.current-info .others {
+    display: flex;
+    flex-direction: column;
+    background: rgba(24, 24, 27, .1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+}
+
+footer {
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: space-between;
+}
